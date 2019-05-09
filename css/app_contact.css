@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  background-color: #fff; }
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  color: #B28488;
+  font-size: 32px;
+  line-height: 55px;
+  text-align: center;
+  width: 200px;
+  padding: 10px 10px;
+  margin: 20px auto; }
+
+.logo a {
+  text-decoration: none;
+  color: #7279A3;
+  font-size: 30px; }
+
+.logo a:hover {
+  text-decoration: none; }
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                   NAV
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.nav {
+  z-index: 2000; }
+
+.nav-main {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  z-index: 1000; }
+
+.nav-main ul {
+  width: 100%; }
+
+.nav-item:hover {
+  background-color: #D7DBE3; }
+/*------------------------------------------------------------------------------------------------------------------------------
+                                                                   HEADER
+------------------------------------------------------------------------------------------------------------------------------*/
+.header-container h1 {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 4px; }
+
+.main-header {
+  padding-bottom: 30px; }
+/*--------------------------------------------------------------------------------------------------------------------------------
+                                                         SECTION#1
+--------------------------------------------------------------------------------------------------------------------------------*/
+.header-open-time {
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  opacity: 0.4; }
+
+.main-header-section1 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color: #134594;
+  letter-spacing: 1px; }
+
+.paragraph-section1 {
+  text-align: center;
+  opacity: 0.8;
+  margin: 30px 0px; }
+
+#map {
+  height: 400px;
+  width: 100%; }
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 SECTION#2
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.contact-info {
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 40px; }
+
+.contact-info h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #134594;
+  margin-bottom: 20px; }
+
+.contact-info p {
+  font-size: 16px; }
+
+.contact-info p span {
+  margin-left: 28px; }
+
+.form-section2 {
+  margin-bottom: 40px; }
+
+form {
+  margin-top: 20px; }
+
+label {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px; }
+
+input[type=text] {
+  display: block;
+  width: 300px;
+  padding: 12px 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px; }
+
+.form-info {
+  float: left;
+  margin-left: 10px; }
+
+.text {
+  padding-left: 8px; }
+
+input[type=textarea] {
+  width: 1000px; }
+
+input[type=checkbox] {
+  font-size: 10px;
+  margin-left: 10px; }
+
+button[type=submit] {
+  margin: 10px 10px;
+  background-color: #343956; }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 SOCIALS
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.socials {
+  margin: 40px 0px;
+  text-align: center;
+  clear: both; }
+
+.icon-facebook:hover {
+  opacity: .6; }
+
+.icon-instagram:hover {
+  opacity: .6; }
+
+.icon-pinterest:hover {
+  opacity: .6; }
+
+.icon-behance:hover {
+  opacity: .6; }
+
+/*----------------------------------------------------------------------------------------------------------------------------
+                                                      FOOTER
+-----------------------------------------------------------------------------------------------------------------------------*/
+.footer-container {
+  letter-spacing: 1px;
+  color: #343956;
+  font-family: 'PT Sans', sans-serif; }
+
+.footer-container .footer-col {
+  padding: 6px;
+  text-align: center; }
+
+.footer-container .footer-col h4 {
+  font-weight: 600;
+  font-size: 16px; }
+
+.footer-container .footer-col p {
+  font-size: 12px; }
+
+.text-center {
+  font-size: 10px; }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------
+                                                   MEDIA QUERY
+                                                   400-600px
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 400px) and (max-width: 600px){
+  /*----------------------------------------------------Header------------------------------------------------*/
+.imgban .main-header {
+  position: absolute;
+  top: 280px;
+  left: 100px; }
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 PARALLAXA2
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.parallaxa2 h2 {
+  padding-left: 60px; }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 SECTION#1
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.icons {
+  margin: 10px 36px; }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+                                              738px - 999px
+----------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 738px) and (max-width: 999px) {
+.logo {
+  float: left;
+  margin-left: 10px; }
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  NAV
+-----------------------------------------------------------------------------------------------------------------------------------------*/   
+.nav-main-first {
+  margin: 4px 0px 60px 20px; }
+
+.nav-main {
+  padding-top: 10px;
+  margin: 10px;
+  color: transparent; }
+
+.nav-main ul li {
+  width: 140px;
+  color: transparent !important; }
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                                                  HEADER
+-------------------------------------------------------------------------------------------------------------------*/ 
+.header-container h1 {
+  padding-top: 76px; }
+
+/*--------------------------------------------------------------------------------------------------------------------
+                                                                 SECTION#2
+----------------------------------------------------------------------------------------------------------------------*/
+.contact-info {
+  text-align: left; }
+
+form {
+  margin: 40px 0px 20px 80px; }
+
+input[type=text] {
+  display: block;
+  width: 200px; }
+
+input[type=checkbox] {
+  font-size: 10px; }
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 SOCIALS
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.socials {
+  background-color: transparent; }
+/*----------------------------------------------------------------------------------------------------------------------------
+                                                      FOOTER
+-----------------------------------------------------------------------------------------------------------------------------*/
+.footer-container {
+  letter-spacing: 1px;
+  color: #343956;
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 40px; }
+
+.footer-container .footer-col {
+  padding: 6px;
+  text-align: center;
+  font-size: 12px; }
+
+.footer-container .footer-col h4 {
+  font-size: 16px;
+  font-weight: 600; }
+}
+
+/*---------------------------------------------------------------------------------------------------------------
+                                                1000px - 1199px
+-----------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------
+                                                  NAV
+---------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+.logo {
+  float: left; }
+
+.nav-main {
+  width: 120%;
+  padding-top: 10px; }
+
+.nav-main ul {
+  width: 100%; }
+
+.nav-main ul li {
+  padding: 10px;
+  margin: 10px; }
+
+.nav-item:hover {
+  background-color: #D7DBE3; }
+
+/*--------------------------------------------------------------------------------------------------------------
+                                                  HEADER
+---------------------------------------------------------------------------------------------------------------*/ 
+.imgban .main-header {
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  font-size: 60px; }
+
+.header-container h1 {
+  position: relative;
+  top: 180px; }
+ /*--------------------------------------------------------------------------------------------------------------
+                                                   SECTION#1
+-----------------------------------------------------------------------------------------------------------------*/
+.header-section2 {
+  margin-bottom: 60px; }
+
+.img-wroclaw {
+  width: 150%;
+  height: auto; }
+
+.info {
+  background-color: #fff;
+  width: 100px;
+  height: 290px; 
+  margin-top: 50px; }
+
+.icons {
+  width: 70%;
+  margin: 10px auto; }
+
+.img-section1 {
+  width: 100%; }
+
+.about-room {
+  font-size: 15px;
+  padding-top: 0; }
+
+.header-room {
+  margin-bottom: 2px;
+  padding-top: 2px; }
+/*-----------------------------------------------SECTION#2---------------------------------------------------*/
+.contact-info {
+  text-align: left; }
+
+input[type=text] {
+  display: block;
+  width: 220px;
+  height: 40px; }
+/*------------------------------------------------FOOTER------------------------------------------------------*/
+.footer-col .logo a {
+  font-size: 30px; }
+}
+
+/*----------------------------------------------------------------------------------------------------------------
+                                                1200px <
+-----------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1200px) {
+/*-------------------------------------------------NAV-----------------------------------------------------------*/
+.logo {
+  float: left; }
+
+.nav-main {
+  width: 120%;
+  padding-top: 10px; }
+
+.nav-main ul {
+  width: 100%; }
+
+.nav-main ul li {
+  padding: 10px;
+  margin: 10px; }
+
+.nav-item:hover {
+  background-color: #D7DBE3; }
+  /*-------------------------------------------------HEADER-----------------------------------------------------*/
+.header-container h1 {
+  position: relative;
+  top: 180px; }
+
+/*-------------------------------------------------SECTION#1-----------------------------------------------------*/
+.paragraph-section1 {
+  text-align: center;
+  opacity: 0.8;
+  margin: 40px auto;
+  width: 600px; }
+
+#map {
+  height: 400px;
+  width: 73%;
+  margin: auto; }
+
+/*-------------------------------------------------SECTION#2-----------------------------------------------------*/
+
+.contact-info {
+  text-align: left;
+  margin-top: 60px; }
+
+form {
+  margin-top: 60px; }
+
+input[type=text] {
+  display: block;
+  width: 265px;
+  height: 40px; }
+
+/*------------------------------------------------FOOTER------------------------------------------------------*/
+.footer-col .logo a{
+  font-size: 30px; }
+}
